@@ -1,0 +1,93 @@
+::ng-deep .mat-dialog-content {
+    padding: 20px 55px !important;
+    margin: 0 !important;
+    overflow: visible !important;
+  }
+  ::ng-deep .mat-dialog-container {
+    width: 70% !important;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  ::ng-deep .mat-dialog-content strong {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  ::ng-deep .mat-form-field {
+    width: 100% !important;
+    max-width: 300px;
+    margin-bottom: 16px;
+  }
+  
+  ::ng-deep .mat-dialog-actions {
+    margin-top: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  ::ng-deep .mat-dialog-actions button {
+    font-weight: 500;
+  }
+  
+  ::ng-deep .mat-button {
+    color: #007bff;
+  }
+  
+  ::ng-deep .mat-button[mat-dialog-close] {
+    color: #888;
+  }
+  
+  ::ng-deep .mat-form-field-infix {
+    width: 100% !important;
+    min-width: 200px;
+  }
+  
+  ::ng-deep .mat-form-field-infix input,
+  ::ng-deep .mat-form-field-infix .mat-select-value-text {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    ::ng-deep .mat-dialog-container {
+      width: 90% !important;
+      padding: 10px !important;
+    }
+  
+    ::ng-deep .mat-dialog-content {
+      padding: 15px !important;
+    }
+  
+    ::ng-deep .mat-form-field {
+      max-width: 100% !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    ::ng-deep .mat-dialog-container {
+      width: 95% !important;
+      padding: 5px !important;
+    }
+  
+    ::ng-deep .mat-dialog-content strong {
+      font-size: 18px;
+    }
+  
+    ::ng-deep .mat-form-field {
+      max-width: 100% !important;
+    }
+  
+    ::ng-deep .mat-dialog-actions {
+      gap: 5px;
+    }
+  
+    ::ng-deep .mat-button {
+      font-size: 14px;
+    }
+  }
+  
