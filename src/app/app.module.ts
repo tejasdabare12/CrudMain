@@ -19,6 +19,9 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { MatSelectModule } from '@angular/material/select';
 import { ConfirmDeleteDialogComponent } from './confirm-delete-dialog/confirm-delete-dialog.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSortModule } from '@angular/material/sort';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +31,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     
   ],
   imports: [
+    MatSortModule,
     MatSnackBarModule,
     BrowserModule,
     MatSelectModule,
